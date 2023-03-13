@@ -17,12 +17,6 @@ Fifth term of the series is: (Third + fourth) = 1 + 2 = 3
 */
 
 function fibonacci(num) {
-  if (num == 1) return 0;
-  if (num == 2) return 1;
+  if (num < 2) return num;
   return fibonacci(num - 1) + fibonacci(num - 2);
 }
-
-let num = 7;
-answer = fibonacci(num);
-
-console.log("The 7th term of the Fibonacci series is: ", answer);
