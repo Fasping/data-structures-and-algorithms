@@ -1,16 +1,5 @@
 /* 
-
-This code is a basic implementation of binary search in JavaScript using React. Binary search is an efficient search algorithm that finds an element in an ordered list by repeatedly splitting the list in half and determining which half of the array the searched element might be in.
-
-The code starts by importing the useState function from the React library, which is used to manage the state of the component. Next, a function component called BinarySearch is defined.
-
-Within the component, two states are defined: inputValue and searchArray. The inputValue state is an empty string that is used to store the value of the input where the number to be searched for is entered. The searchArray state is an array of ordered numbers on which the binary search will be performed.
-
-The handleInputChange function is responsible for updating the inputValue state with the value of the input being written to. It is passed as a callback function for the input's onChange event.
-
-The handleSearch function is executed when the search button is clicked. Use the findIndex function to find the value of inputValue within the searchArray . If the value is found, an alert message is displayed indicating the index where the value is found. Otherwise, a message is displayed indicating that the value was not found.
-
-Finally, the component renders the search array and the input, and the search button, and the entire component is returned.
+In computer science, binary search, also known as half-interval search, logarithmic search, or binary chop, is a search algorithm that finds the position of a target value within a sorted array. Binary search compares the target value to the middle element of the array.
 
 In short, this code is a basic implementation of binary search in React that allows users to enter a value to search for in an array and display the index of that value if it is found in the array.*/
 
